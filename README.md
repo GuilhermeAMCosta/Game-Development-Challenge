@@ -4,7 +4,7 @@ Repositório criado para minha aplicação na FMQ.
 O objetivo do jogo é ajudar o personagem "Guilherme" a chegar no seu futuro trabalho na "FABAMAQ". Porém, faça com que o personagem não contraia a COVID-19 no caminho. 
 Conto com a sua ajuda! 👨‍💻
 
-#Pré-requisitos
+# Pré-requisitos
 
 💻SO:
   - Linux
@@ -14,9 +14,9 @@ Conto com a sua ajuda! 👨‍💻
 
 ⚙Compilador C++
 
-#Como executar?
+# Como executar?
 
-#Instruções
+# Instruções
 
-#Agradecimentos
+# Agradecimentos
 Ao Tiago Gomes e todo time da FMQ que me possibilitaram essa oportunidade.
