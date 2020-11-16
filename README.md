@@ -7,14 +7,25 @@ Conto com a sua ajuda! 👨‍💻
 # Pré-requisitos
 
 💻SO:
-  - Linux
+  - Linux (Ubuntu)
   - Windows
 
 📚Biblioteca SDL
 
 ⚙Compilador C++
 
-# Como executar?
+# g++
+Instalar o compilador g++ no seu Ubuntu:
+
+  $ sudo apt install g++
+  
+Checar se o mesmo foi instalado:
+
+  $ g++ --version
+
+# Biblioteca SDL
+
+
 
 # Instruções
 
