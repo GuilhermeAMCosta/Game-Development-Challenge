@@ -7,8 +7,8 @@ Conto com a sua ajuda! 👨‍💻
 # Pré-requisitos
 
 💻SO:
-  - Linux (Ubuntu)
-  - Windows
+  - Linux (Ubuntu);
+  - Windows.
 
 📚Biblioteca SDL
 
@@ -17,7 +17,7 @@ Conto com a sua ajuda! 👨‍💻
 # g++
 Instalar o compilador g++ no seu Ubuntu:
 
-  $ sudo apt install g++
+`<addr>` $ sudo apt install g++
   
 Checar se o mesmo foi instalado:
 
