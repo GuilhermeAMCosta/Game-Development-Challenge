@@ -15,16 +15,24 @@ Conto com a sua ajuda! 👨‍💻
 ⚙Compilador C++
 
 # g++
-Instalar o compilador g++ no seu Ubuntu:
+1. Instalar o compilador g++ no seu Ubuntu:
 
 `$ sudo apt install g++`
   
-Checar se o mesmo foi instalado:
+2. Checar se o mesmo foi instalado:
 
 `$ g++ --version`
 
 # Biblioteca SDL
+Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código aberto, multiplataforma, escrito em C que representa uma interface simples para gráficos, som, e dispositivos de entrada de várias plataformas. 
 
+1. Instalar a Biblioteca SDL:
+
+`$ sudo apt-get install libsdl2-2.0`
+
+2. Instalar Extensões:
+
+# Compilar
 
 
 # Instruções
