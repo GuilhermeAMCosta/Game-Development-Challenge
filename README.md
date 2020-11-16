@@ -17,11 +17,11 @@ Conto com a sua ajuda! 👨‍💻
 # g++
 Instalar o compilador g++ no seu Ubuntu:
 
-`<addr>` $ sudo apt install g++
+`$ sudo apt install g++`
   
 Checar se o mesmo foi instalado:
 
-  $ g++ --version
+`$ g++ --version`
 
 # Biblioteca SDL
 
