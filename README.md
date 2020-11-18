@@ -5,7 +5,7 @@ O objetivo do jogo é ajudar o personagem "Guilherme" a chegar no seu futuro tra
 Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 <p align="center">
-![](ezgif.com-video-to-gif.gif)
+  ![](ezgif.com-video-to-gif.gif)
 </p>
 
 # Pré-requisitos
