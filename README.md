@@ -20,7 +20,7 @@ Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 `$ sudo apt install g++`
   
-2. Checar se o mesmo foi instalado:
+2. Checar se o mesmo foi instalado corretamente:
 
 `$ g++ --version`
 
@@ -32,8 +32,12 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 `$ sudo apt-get install libsdl2-2.0`
 
 2. Instalar Extensões:
+
 - SDL2_image
+`$ sudo apt-get install libsdl2-image-dev`
+
 - SDL2_ttf
+`$ sudo apt install libsdl-ttf2.0-0 `
 
 # Compilar
 
