@@ -16,9 +16,19 @@ Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 ⚙Compilador C++
 
 # g++
+ *Linux
 1. Instalar o compilador g++ no seu Ubuntu:
 
 `$ sudo apt install g++`
+  
+2. Checar se o mesmo foi instalado corretamente:
+
+`$ g++ --version`
+
+*Mac OS
+1. Instalar o compilador g++ no seu Mac OS:
+
+`$ brew install gcc`
   
 2. Checar se o mesmo foi instalado corretamente:
 
