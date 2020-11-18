@@ -36,10 +36,23 @@ Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 # Biblioteca SDL
 Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código aberto, multiplataforma, escrito em C que representa uma interface simples para gráficos, som, e dispositivos de entrada de várias plataformas. 
-
+### Linux
 1. Instalar a Biblioteca SDL:
 
 `$ sudo apt-get install libsdl2-2.0`
+
+2. Instalar Extensões:
+
+- SDL2_image
+`$ sudo apt-get install libsdl2-image-dev`
+
+- SDL2_ttf
+`$ sudo apt install libsdl-ttf2.0-0 `
+
+### Mac OS
+1. Instalar a Biblioteca SDL:
+
+`$ brew install sdl2`
 
 2. Instalar Extensões:
 
