@@ -2,13 +2,14 @@
 Repositório criado para minha aplicação na FMQ. 
 "Run to FABAMAQ" é um Mini Game desenvolvido em C++ utilizando a biblioteca SDL. Foi criada uma Engine própria e do zero.
 O objetivo do jogo é ajudar o personagem "Guilherme" a chegar no seu futuro trabalho na "FABAMAQ". Porém, faça com que o personagem não contraia a COVID-19 no caminho. 
-Conto com a sua ajuda! 👨‍💻
+Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 # Pré-requisitos
 
 💻SO:
   - Linux (Ubuntu);
-  - Windows.
+  ou
+  - Mac OS.
 
 📚Biblioteca SDL
 
@@ -31,11 +32,14 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 `$ sudo apt-get install libsdl2-2.0`
 
 2. Instalar Extensões:
+- SDL2_image
+- SDL2_ttf
 
 # Compilar
 
 
 # Instruções
+
 
 # Agradecimentos
 Ao Tiago Gomes e todo time da FMQ que me possibilitaram essa oportunidade.
