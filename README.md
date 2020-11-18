@@ -64,6 +64,7 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 
 # Compilar
 
+`$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp TextureManager.cpp Vector2D.cpp `sdl2-config --cflags --libs` -w -lSDL2 -lSDL2_image -lSDL2_ttf -o run`
 
 # Instruções
 
