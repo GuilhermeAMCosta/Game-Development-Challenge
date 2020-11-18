@@ -57,10 +57,10 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 2. Instalar Extensões:
 
 - SDL2_image
-`$ sudo apt-get install libsdl2-image-dev`
+`$ brew install sdl2_image`
 
 - SDL2_ttf
-`$ sudo apt install libsdl-ttf2.0-0 `
+`$ brew install sdl2_ttf `
 
 # Compilar
 
