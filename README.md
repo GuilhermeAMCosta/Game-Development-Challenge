@@ -4,7 +4,9 @@ Repositório criado para minha aplicação na FMQ.
 O objetivo do jogo é ajudar o personagem "Guilherme" a chegar no seu futuro trabalho na "FABAMAQ". Porém, faça com que o personagem não contraia a COVID-19 no caminho. 
 Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
+<p align="center">
 ![](ezgif.com-video-to-gif.gif)
+</p>
 
 # Pré-requisitos
 
