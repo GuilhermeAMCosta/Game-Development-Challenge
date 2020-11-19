@@ -35,10 +35,14 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 2. Instalar Extensões:
 
 - SDL2_image
-`$ sudo apt-get install libsdl2-image-dev`
+```console
+foo@bar:~$ sudo apt-get install libsdl2-image-dev
+```
 
 - SDL2_ttf
-`$ sudo apt install libsdl-ttf2.0-0 `
+```console
+foo@bar:~$ sudo apt install libsdl-ttf2.0-0
+```
 
 # Compilar
 1. Acessar o diretório "Source" pelo Terminal
@@ -46,14 +50,11 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 2. Executar todos arquivos .cpp, conforme abaixo:
 
 ```console
-foo@bar:~$ $ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp TextureManager.cpp Vector2D.cpp `sdl2-config --cflags --libs` -w -lSDL2 -lSDL2_image -lSDL2_ttf -o run
+foo@bar:~$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp TextureManager.cpp Vector2D.cpp `sdl2-config --cflags --libs` -w -lSDL2 -lSDL2_image -lSDL2_ttf -o run
 ```
 
 # Instruções
-```console
-foo@bar:~$ whoami
-foo
-```
+
 
 
 # Agradecimentos
