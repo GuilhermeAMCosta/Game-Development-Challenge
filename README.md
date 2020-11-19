@@ -10,15 +10,13 @@ Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 💻SO:
   - Linux (Ubuntu);
-  ou
-  - Mac OS.
 
 📚Biblioteca SDL
 
 ⚙Compilador C++
 
 # Compilador g++
-### Linux
+
 1. Instalar o compilador g++ no seu Ubuntu:
 
 `$ sudo apt install g++`
@@ -27,18 +25,9 @@ Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 `$ g++ --version`
 
-### Mac OS
-1. Instalar o compilador g++ no seu Mac OS:
-
-`$ brew install gcc`
-  
-2. Checar se o mesmo foi instalado corretamente:
-
-`$ g++ --version`
-
 # Biblioteca SDL
 Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código aberto, multiplataforma, escrito em C que representa uma interface simples para gráficos, som, e dispositivos de entrada de várias plataformas. 
-### Linux
+
 1. Instalar a Biblioteca SDL:
 
 `$ sudo apt-get install libsdl2-2.0`
@@ -51,24 +40,18 @@ Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código 
 - SDL2_ttf
 `$ sudo apt install libsdl-ttf2.0-0 `
 
-### Mac OS
-1. Instalar a Biblioteca SDL:
-
-`$ brew install sdl2`
-
-2. Instalar Extensões:
-
-- SDL2_image
-`$ brew install sdl2_image`
-
-- SDL2_ttf
-`$ brew install sdl2_ttf `
-
 # Compilar
+1. Acessar o diretório "Source" pelo Terminal
 
-`$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp TextureManager.cpp Vector2D.cpp ``sdl2-config --cflags --libs`` -w -lSDL2 -lSDL2_image -lSDL2_ttf -o run`
+2. Executar todos arquivos .cpp, conforme abaixo:
+
+`$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp TextureManager.cpp Vector2D.cpp `sdl2-config --cflags --libs`` -w -lSDL2 -lSDL2_image -lSDL2_ttf -o run`
 
 # Instruções
+```console
+foo@bar:~$ whoami
+foo
+```
 
 
 # Agradecimentos
