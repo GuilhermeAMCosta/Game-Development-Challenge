@@ -41,7 +41,7 @@ foo@bar:~$ sudo apt-get install libsdl2-image-dev
 
 - SDL2_ttf
 ```console
-foo@bar:~$ sudo apt install libsdl-ttf2.0-0
+foo@bar:~$ sudo apt-get install libsdl2-ttf-dev
 ```
 
 # To Compile
