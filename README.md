@@ -8,29 +8,31 @@ Conto com a sua ajuda! 👨‍💻 #BuildEngineFromScratch
 
 # Pré-requisitos
 
-💻SO:
+💻 SO:
   - Linux (Ubuntu);
 
-📚Biblioteca SDL
+📚 Biblioteca SDL
 
-⚙Compilador C++
+⚙ Compilador C++
 
 # Compilador g++
 
 1. Instalar o compilador g++ no seu Ubuntu:
-
-`$ sudo apt install g++`
+```console
+foo@bar:~$ sudo apt install g++
+```
   
 2. Checar se o mesmo foi instalado corretamente:
-
-`$ g++ --version`
+```console
+foo@bar:~$ g++ --version
+```
 
 # Biblioteca SDL
 Simple DirectMedia Layer (SDL) é uma biblioteca multimídia livre e de código aberto, multiplataforma, escrito em C que representa uma interface simples para gráficos, som, e dispositivos de entrada de várias plataformas. 
 
 1. Instalar a Biblioteca SDL:
 ```console
-foo@bar:~$ sudo apt-get install libsdl2-2.0`
+foo@bar:~$ sudo apt-get install libsdl2-2.0
 ```
 2. Instalar Extensões:
 
@@ -47,7 +49,7 @@ foo@bar:~$ sudo apt install libsdl-ttf2.0-0
 # Compilar
 1. Acessar o diretório "Source" pelo Terminal
 
-2. Compilar todos arquivos .cpp, conforme abaixo:
+2. Compilar todos arquivos .cpp e seus cabeçalhos, conforme abaixo:
 
 ```console
 foo@bar:~$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp TextureManager.cpp Vector2D.cpp `sdl2-config --cflags --libs` -w -lSDL2 -lSDL2_image -lSDL2_ttf -o run
@@ -57,7 +59,13 @@ foo@bar:~$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp 
 foo@bar:~$ ./run
 ```
 # Instruções
-
+Keyboard Command | Functionality
+------------ | -------------
+"Space Bar" | Pause/Resume
+"i" | Insert Credits
+"o" | Remove Credits
+"awsd" | move
+"arrows" | move
 
 
 # Agradecimentos
