@@ -2,7 +2,7 @@
 Repository created for my FMQ application. "Run to FABAMAQ" is a Mini Game developed in C ++ using the SDL library. An own engine was created from scratch. The objective of the game is to help the player "Guilherme" to arrive in his future work at "FABAMAQ". However, make sure the character does not contract COVID-19 on the way. 
 I'm counting on your help! 👨‍💻 #BuildEngineFromScratch
 
-![]
+![ezgif.com-video-to-gif.gif]
 
 # Prerequisites
 
