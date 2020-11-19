@@ -128,24 +128,75 @@ void Game::handleEvents(){
 }
 //Function to Keep Game Up to Date
 void Game::update(){
+		//Regenerate Objects
 		count ++;
-
 		if(count % 300 == 0){
-			assets->CreateProjectile(Vector2D(0, 200), Vector2D(1,0),	1000, 1, "projectile");
+			
+			assets->CreateProjectile(Vector2D(200, 0), Vector2D(0,1),	1000, 1, "projectile");
 			assets->CreateProjectile(Vector2D(350, 0), Vector2D(0,1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(0, 0), Vector2D(1,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(550, 0), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(700, 0), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(850, 0), Vector2D(0,1),	1000, 1, "projectile");
 
-			assets->CreateProjectile(Vector2D(0, 540), Vector2D(1,-1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(600, 0), Vector2D(0,1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(300, 300), Vector2D(1,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(200, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(350, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(500, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(650, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(800, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(950, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1100, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1250, 100), Vector2D(0,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1400, 100), Vector2D(0,1),	1000, 1, "projectile");
 
-			assets->CreateProjectile(Vector2D(0, 700), Vector2D(1,-1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(800, 0), Vector2D(0,1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(300, 300), Vector2D(1,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(200, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(350, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(500, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(650, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(800, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(950, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1100, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1250, 1000), Vector2D(0,-1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1400, 1000), Vector2D(0,-1),	1000, 1, "projectile");
 
-			assets->CreateProjectile(Vector2D(0, 800), Vector2D(0,-1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(800, 0), Vector2D(0,1),	1000, 1, "projectile");
-			assets->CreateProjectile(Vector2D(300, 300), Vector2D(1,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(0, 100), Vector2D(1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(0, 200), Vector2D(1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(0, 600), Vector2D(1,0),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(0, 750), Vector2D(1,0),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(0, 900), Vector2D(1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(0, 1050), Vector2D(1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(0, 1200), Vector2D(1,0),	1000, 1, "projectile");	
+
+			assets->CreateProjectile(Vector2D(1000, 100), Vector2D(-1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1000, 200), Vector2D(-1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1000, 600), Vector2D(-1,0),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(1000, 750), Vector2D(-1,0),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(1000, 900), Vector2D(-1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1000, 1050), Vector2D(-1,0),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1000, 1200), Vector2D(-1,0),	1000, 1, "projectile");	
+
+			assets->CreateProjectile(Vector2D(300, 0), Vector2D(1,1),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(500, 0), Vector2D(1,1),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(700, 0), Vector2D(1,1),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(900, 0), Vector2D(1,1),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(1100, 0), Vector2D(1,1),	1000, 1, "projectile");	
+			assets->CreateProjectile(Vector2D(1300, 0), Vector2D(1,1),	1000, 1, "projectile");	
+
+			assets->CreateProjectile(Vector2D(1200, 0), Vector2D(-1,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(1400, 0), Vector2D(-1,1),	1000, 1, "projectile");
+			assets->CreateProjectile(Vector2D(800, 0), Vector2D(-1,1),	1000, 1, "projectile");
+
+
+			// assets->CreateProjectile(Vector2D(0, 540), Vector2D(1,-1),	1000, 1, "projectile");
+			// assets->CreateProjectile(Vector2D(600, 0), Vector2D(0,1),	1000, 1, "projectile");
+			// assets->CreateProjectile(Vector2D(300, 300), Vector2D(1,1),	1000, 1, "projectile");
+
+			// assets->CreateProjectile(Vector2D(0, 700), Vector2D(1,-1),	1000, 1, "projectile");
+			// assets->CreateProjectile(Vector2D(800, 0), Vector2D(0,1),	1000, 1, "projectile");
+			// assets->CreateProjectile(Vector2D(300, 300), Vector2D(1,1),	1000, 1, "projectile");
+
+			// assets->CreateProjectile(Vector2D(0, 800), Vector2D(0,-1),	1000, 1, "projectile");
+			// assets->CreateProjectile(Vector2D(800, 0), Vector2D(0,1),	1000, 1, "projectile");
+			// assets->CreateProjectile(Vector2D(300, 300), Vector2D(1,1),	1000, 1, "projectile");
 
 		}
 		if(count % 400 != count % 500){
