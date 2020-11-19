@@ -1,5 +1,5 @@
 # Game Development Challenge 🕹
-Repository created for my FMQ application. "Run to FABAMAQ" is a Mini Game developed in C ++ using the SDL library. An own engine was created from scratch. The objective of the game is to help the player "Guilherme" to arrive in his future work at "FABAMAQ". However, make sure the character does not contract COVID-19 on the way. 
+Repository created for my FMQ application. "Run to FABAMAQ" is a Mini Game developed in C ++ using the SDL library. An own engine was created from scratch. The objective of the game is to help the player "Guilherme" to arrive at his future work at "FABAMAQ". However, make sure that the character does not contract COVID-19 on the way and is not hit by a car. 
 I'm counting on your help! 👨‍💻 #BuildEngineFromScratch
 
 ![](runToFMQ.gif)
@@ -57,6 +57,14 @@ foo@bar:~$ g++ AssetManager.cpp Collision.cpp ECS.cpp Game.cpp main.cpp Map.cpp 
 foo@bar:~$ ./run
 ```
 # Instructions
+- When the game starts, you must press START (Space Bar). In addition, you must add at least one CREDIT (Letter "i" on your keyboard).
+
+- You can withdraw a CREDIT at any time (Letter "o" on your keyboard).
+
+- You can PAUSE the game at any time.
+
+- If you are hit by a car or the virus you will lose a CREDIT. If you enter one more CREDIT, or if you still have CREDITS available, the game will continue and the number of moves will be increased.
+
 Keyboard Command | Functionality
 ------------ | -------------
 "Space Bar" | Pause/Resume
